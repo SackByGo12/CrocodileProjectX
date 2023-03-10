@@ -17,9 +17,14 @@
 // }
 
 
-for(var i = 10; i <= 20; i += 2) {
-    if(i % 2 == 0)
-    continue;
+// for(var i = 10; i <= 20; i += 2) {
+//     if(i % 2 == 0)
+//     continue;
 
-    console.log(i);
+//     console.log(i);
+// }
+
+var arr = [1, 2, 3, 4, 5, 6, "stroka"];
+for(i = 0; i < arr.length; i++){
+  console.log("Элемент : " + (i + 1) + ": " + arr[i]);
 }
