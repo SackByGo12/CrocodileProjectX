@@ -5,7 +5,7 @@
 // srt = Number("12") строку в число 
 // console.log("Переменная: ", num  + ".");
 // console.log(Math.PI);
-function multitype(a, b){
-    return a * b
-}
-console.log(multitype(3, 3))
+// function multitype(a, b){
+//     return a * b
+// }
+// console.log(multitype(3, 3))
