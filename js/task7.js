@@ -5,3 +5,7 @@ var text = document.getElementById('text');
 
 text.innerHTML = "New<br>string";
 // document.getElementById('text').style.color = "wnite";
+// var spans = document.getElementsByTagName("span");
+for(var i = 0; i < spans.length; i++){
+    console.log(spans[i].innerHTML);
+}

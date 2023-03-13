@@ -7,11 +7,28 @@
     <link rel="stylesheet" href="style.css">
     <title>CrocodileAAA</title>
 </head>
-<body>
+<>
     <h1>Crocodile</h1>
     <div class="Froge"><img src="/gifs/crocodile-explosion.gif"></div>
     <button onclick="OnClickButton(this)">ВЗОРВИ</button>
     <p id="text">crocodile</p>
+    <span class="simple-text">text1</span>
+    <span class="simple-text">text2</span>
+    <span class="simple-text">text3</span>
+    <form id = "formss" method="post">
+        <label for="name">Name:</label>
+        <input type="text" name="name" placeholder="Имя" id="name"><br><br>
+        <label for="password">Passowrd: </label>
+        <input type="password" name="pass" placeholder="password" id="pass"><br><br>
+        <span>Gender: </span>
+        <input type="radio" name="state" id="male" value="male">
+        <label for="male">Male</label>
+        <input type="radio" name="state" id="female" value="female">
+        <label for="female">Female</label><br><br>
+        <div id="error" style="color: red"></div>
+        <input type="submit" name="submit" value="Complety">
+    </form>
+    <!-- onsubmit="return checkForm(this)" можно использовать в форме, чтобы получить доступ к обьекту-->
     <script>
     // comment
     /*
@@ -28,10 +45,13 @@
        // console.debug("Hello World!");
        // console.warn("Hello World!");
     </script>
+    <!-- <noscript>Включите JS!!!</noscript>
     <script src="/js/main.js"></script>
     <script src="/js/task1.js"></script>
-    <script src="/js/task2.js"></script>
-    <script src="/js/task6.js"></script> 
-    <noscript>Включите JS!!!</noscript>
+    <script src="/js/task2.js"></script> -->
+    <script src="/js/task6.js"></script>
+    <script src="/js/form.js"></script>
+    <!-- <script src="/js/LastTaskItProger.js"></script> -->
+    <!-- <script src="/js/intervalTime.js"></script> -->
 </body>
 </html>
